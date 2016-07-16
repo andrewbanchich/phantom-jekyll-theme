@@ -7,4 +7,11 @@
 		<li><a href="generic.html">Consequat dolor</a></li>
 		<li><a href="elements.html">Elements</a></li>
 	</ul>
+	<ul>
+      {% for p in site.pages %}
+        <li>
+          <a href="{{ p.url }}">{{ p.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
 </nav>
