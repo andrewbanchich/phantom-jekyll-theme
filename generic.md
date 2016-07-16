@@ -1,3 +1,8 @@
+---
+layout: default
+title: Generic Page
+---
+
 <!DOCTYPE HTML>
 <!--
 	Phantom by HTML5 UP
