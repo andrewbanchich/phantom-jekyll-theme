@@ -5,7 +5,7 @@
 
     {% if page.title %}
 
-      <a href="{{ page.url }}">{{ page.title }}</a>
+      <a href="{{ page.url }}">{{ page.title | prepend:site.baseurl }}</a>
 
     {% endif %}
 
