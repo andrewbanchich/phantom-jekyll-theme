@@ -10,7 +10,7 @@ title: Phantom
 email: youremailaddress@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   The Jekyll version of the "Phantom" theme by HTML5 UP.
-baseurl: "/Phantom-Jekyll-Theme" # the subpath of your site, e.g. /blog
+baseurl: "/Phantom-Jekyll-Theme/" # the subpath of your site, e.g. /blog
 url: "https://andrewbanchich.github.io/" # the base hostname & protocol for your site
 github_username: andrewbanchich
 twitter_username: andrewbanchich
