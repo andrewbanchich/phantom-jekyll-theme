@@ -1,6 +1,14 @@
 <nav id="menu">
 <h2>Menu</h2>
 	<ul>
-<a href="asdfasd">Test</a>
+      {% for page in site.pages %}
+
+    {% if page.title %}
+
+      <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+
+    {% endif %}
+
+  {% endfor %}
     </ul>
 </nav>
