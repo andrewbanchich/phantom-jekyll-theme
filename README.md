@@ -2,7 +2,7 @@
 
 A Jekyll version of the "Phantom" theme by HTML5 UP.
 
-![alt text](https://andrewbanchich.github.io/Phantom-Jekyll-Theme/images/phantomjpg "Phantom Theme")
+![alt text](https://andrewbanchich.github.io/Phantom-Jekyll-Theme/images/phantom.jpg "Phantom Theme")
 
 Phantom by HTML5 UP
 html5up.net | @ajlkn
