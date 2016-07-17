@@ -13,6 +13,8 @@ baseurl: "/Phantom-Jekyll-Theme" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 github_username: andrewbanchich
 twitter_username: andrewbanchich
+facebook_URL:
+instagram_username:
 
 # Build settings
 markdown: kramdown
