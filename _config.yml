@@ -18,3 +18,7 @@ instagram_username:
 
 # Build settings
 markdown: kramdown
+
+# Layout settings
+home-link-in-menu: yes
+
