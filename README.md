@@ -1,4 +1,4 @@
-# Phantom-Jekyll-Theme
+# Phantom Jekyll Theme
 
 A Jekyll version of the "Phantom" theme by HTML5 UP.
 
