@@ -14,9 +14,9 @@ For those unfamiliar with how Jekyll works, check out [https://jekyllrb.com/](ht
 
 I've integrated lots of nice Jekyll features into the theme, such as:
 * [Formspree.io](https://formspree.io/) contact form support - just add your email to the `_config.yml` and it works!
-* **Upcoming**: Featured images and thumbnails in front matter for the homepage posts grid.
-* **Upcoming**: Easy featured image settings in `_config.yml` - choose to have Jekyll use a set height for featured images or have it display the entire image, pushing the page content further down.
 * Social profiles are linked from usernames you enter in `_config.yml`.
+* **Coming soon**: Featured images and thumbnails in front matter for the homepage posts grid.
+* **Coming soon**: Easy featured image settings in `_config.yml` - choose to have Jekyll use a set height for featured images or have it display the entire image, pushing the page content further down.
 
 # Credits
 
