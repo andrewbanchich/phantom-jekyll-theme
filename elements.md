@@ -1,11 +1,8 @@
 ---
-layout: default
+layout: page
 title: Elemental
 ---
 
-<h1>Elements</h1>
-
-<!-- Text -->
 <section>
 <h2>Text</h2>
 <p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
