@@ -4,6 +4,10 @@ A Jekyll version of the "Phantom" theme by HTML5 UP.
 
 ![alt text](images/phantom.jpg "Phantom Theme")
 
+# How to Use
+
+Simply fork this repository and start editing the `_config.yml` file!
+
 # Credits
 
 Phantom by HTML5 UP
