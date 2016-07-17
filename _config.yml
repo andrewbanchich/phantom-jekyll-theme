@@ -11,6 +11,12 @@ email: youremailaddress@gmail.com
 description: The Jekyll version of the Phantom theme by HTML5 UP.
 baseurl: "/Phantom-Jekyll-Theme" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
+
+# Logo settings
+logo-image-url: images/logo.svg
+font-awesome-icon-logo:
+
+# Social settings
 github_username: andrewbanchich
 twitter_username: andrewbanchich
 facebook_URL:

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Elemental
+title: Elements
 ---
 
 <section>
