@@ -1,6 +1,6 @@
 # "Phantom" Jekyll Theme
 
-A Jekyll version of the "Phantom" theme by HTML5 UP.
+A Jekyll version of the "Phantom" theme by [HTML5 UP](https://html5up.net/).
 
 ![alt text](images/phantom.jpg "Phantom Theme")
 
