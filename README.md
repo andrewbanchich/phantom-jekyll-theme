@@ -13,7 +13,7 @@ For those unfamiliar with how Jekyll works, check out [https://jekyllrb.com/](ht
 # Added Features
 
 I've integrated lots of nice Jekyll features into the theme, such as:
-* Formspree.io contact form support - just add your email to the `_config.yml` and it works!
+* [Formspree.io](https://formspree.io/) contact form support - just add your email to the `_config.yml` and it works!
 * Featured images and thumbnails in for the homepage posts grid.
 
 # Credits
