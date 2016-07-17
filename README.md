@@ -4,9 +4,18 @@ A Jekyll version of the "Phantom" theme by HTML5 UP.
 
 ![alt text](images/phantom.jpg "Phantom Theme")
 
+# How to Use
+
+Simply fork this repository and start editing the `_config.yml` file!
+
+# Credits
+
+Original README from HTML5 UP:
+
+```
 Phantom by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+[html5up.net](html5up.net) | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license ([html5up.net/license](html5up.net/license))
 
 
 This is Phantom, a simple design built around a grid of large, colorful, semi-interactive
@@ -29,7 +38,7 @@ Credits:
 		Unsplash (unsplash.com)
 
 	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
+		Font Awesome (http://fontawesome.io/)
 
 	Other:
 		jQuery (jquery.com)
@@ -37,3 +46,4 @@ Credits:
 		Misc. Sass functions (@HugoGiraudel)
 		Respond.js (j.mp/respondjs)
 		Skel (skel.io)
+```
