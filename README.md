@@ -17,6 +17,7 @@ I've integrated lots of nice Jekyll features into the theme, such as:
 * Your social profiles are linked from usernames you enter in `_config.yml`.
 * Site logo support - Easily set any image or [Font Awesome icon](http://fontawesome.io/icons/) as your logo. If you enter a Font Awesome icon class in `_config.yml` it will override the default image used as the site logo.
 * Automatic [sitemap generation in GitHub Pages](https://help.github.com/articles/sitemaps-for-github-pages/) via the [Jekyll Sitemap Generator](https://github.com/jekyll/jekyll-sitemap) plugin.
+* **Coming soon**: Only social profiles you enter in `config.yml` will show up on the site. Currently they all show up, but the links don't work..
 * **Coming soon**: Featured images and thumbnails in front matter for the homepage posts grid.
 * **Coming soon**: Easy featured image settings in `_config.yml` - choose to have Jekyll use a set height for featured images or have it display the entire image, pushing the page content further down.
 
