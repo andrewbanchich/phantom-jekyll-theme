@@ -19,8 +19,11 @@ font-awesome-icon-logo:
 # Social settings
 github_username: andrewbanchich
 twitter_username: andrewbanchich
-facebook_URL:
-instagram_username:
+facebook_URL: andrewbanchich
+instagram_username: andrewbanchich
+dribbble_username: andrewbanchich
+500px_username: andrewbanchich
+phone: 555-5555
 
 # Build settings
 markdown: kramdown
