@@ -14,7 +14,7 @@
 
 					{% else %}
 
-					<img src="{{ site.logo-image-url }}" alt="" />
+					<img src="{{ site.logo-image-url | prepend:site.base.url | prepend:site.url }}" alt="" />
 
 					{% endif %}
 
