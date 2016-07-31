@@ -1,35 +1,17 @@
 <section class="tiles">
-	<article class="style1">
+
+{% for post in site.posts limit:site.front-page-posts %}
+	<article class="style{{ forloop.index | plus:1 }}">
 		<span class="image">
-			<img src="images/pic01.jpg" alt="" />
+			<img src="{{ site.url }}{{ site.baseurl }}/images/pic01.jpg" alt="" />
 		</span>
-		<a href="generic.html">
-			<h2>Magna</h2>
+		<a href="{{ post.url | prepend:site.baseurl | prepend:site.url }}">
+			<h2>{{ post.title }}</h2>
 			<div class="content">
-				<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+				<p>{{ post.excerpt }}</p>
 			</div>
 		</a>
 	</article>
-	<article class="style2">
-		<span class="image">
-			<img src="images/pic02.jpg" alt="" />
-		</span>
-		<a href="generic.html">
-			<h2>Lorem</h2>
-			<div class="content">
-				<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-			</div>
-		</a>
-	</article>
-	<article class="style3">
-		<span class="image">
-			<img src="images/pic03.jpg" alt="" />
-		</span>
-		<a href="generic.html">
-			<h2>Feugiat</h2>
-			<div class="content">
-				<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-			</div>
-		</a>
-	</article>
+{% endfor %}
+
 </section>
