@@ -60,3 +60,5 @@ Credits:
 		Respond.js (j.mp/respondjs)
 		Skel (skel.io)
 ```
+
+Repository icon ([Jekyll logo](https://github.com/jekyll/brand)) licensed under a [Creative Commons Attribution 4.0 International License](http://choosealicense.com/licenses/cc-by-4.0/).
