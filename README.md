@@ -17,10 +17,9 @@ and [creating pages](https://jekyllrb.com/docs/pages/).
 
 I've integrated lots of nice Jekyll features into the theme, such as:
 * [Formspree.io](https://formspree.io/) contact form integration - just add your email to the `_config.yml` and it works!
-* Your social profiles are linked from usernames you enter in `_config.yml`.
+* Your social profiles are linked from usernames you enter in `_config.yml`. Only social profiles buttons you enter in `config.yml` show up on the site footer.
 * Site logo support - Easily set any image or [Font Awesome icon](http://fontawesome.io/icons/) as your logo. If you enter a Font Awesome icon class in `_config.yml` it will override the default image used as the site logo.
-* Automatic sitemap generation in GitLab and [GitHub Pages](https://help.github.com/articles/sitemaps-for-github-pages/) via the [Jekyll Sitemap Generator](https://github.com/jekyll/jekyll-sitemap) plugin.
-* Only social profiles buttons you enter in `config.yml` show up on the site footer.
+* **Coming soon**: Automatic sitemap generation in GitLab and [GitHub Pages](https://help.github.com/articles/sitemaps-for-github-pages/) via the [Jekyll Sitemap Generator](https://github.com/jekyll/jekyll-sitemap) plugin.
 * **Coming soon**: Featured images and thumbnails in front matter for the homepage posts grid.
 * **Coming soon**: Easy featured image settings in `_config.yml` - choose to have Jekyll use a set height for featured images or have it display the entire image, pushing the page content further down.
 
