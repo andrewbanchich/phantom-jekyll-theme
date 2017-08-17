@@ -29,4 +29,5 @@ phone: 555-5555
 markdown: kramdown
 
 # Layout settings
-home-link-in-menu: yes
+home-link-in-menu: true #true or false
+front-page-posts: 6 #maximum number of posts to show on front page

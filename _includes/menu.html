@@ -1,6 +1,10 @@
 <nav id="menu">
 	<h2>Menu</h2>
 	<ul>
+		
+		{% if site.home-link-in-menu %}
+		<li><a href="{{ site.baseurl }}"/>Home</a></li>
+		{% endif %}
 
 		{% for page in site.pages %}
 		{% if page.path == "index.html" %}
