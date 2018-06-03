@@ -4,6 +4,7 @@ pages:
   stage: build
   script:
   - gem install jekyll
+  - bundle install
   - jekyll build -d public
   artifacts:
     paths:
