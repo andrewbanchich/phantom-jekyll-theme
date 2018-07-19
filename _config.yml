@@ -12,8 +12,8 @@ description: The city is web of lives, tangled
 #baseurl: "/phantom-jekyll-theme" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site
 
-# baseurl: "/" # the subpath of your site, e.g. /blog
-# url: "tangled.city" # the base hostname & protocol for your site
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "tangled.city" # the base hostname & protocol for your site
 
 # Logo settings
 logo-image-url: images/logo36.png
