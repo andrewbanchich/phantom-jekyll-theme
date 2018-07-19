@@ -2,7 +2,6 @@
 
 A Jekyll version of the "Phantom" theme by [HTML5 UP](https://html5up.net/).
 
-![Phantom Theme](images/phantom.jpg "Phantom Theme")
 
 # How to Use
 
