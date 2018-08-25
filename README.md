@@ -10,8 +10,8 @@ For those unfamiliar with how Jekyll works, check out [https://jekyllrb.com/](ht
 or read up on just the basics of [front matter](https://jekyllrb.com/docs/frontmatter/), [writing posts](https://jekyllrb.com/docs/posts/), 
 and [creating pages](https://jekyllrb.com/docs/pages/).
 
-- **GitLab**: Simply fork this repository and start editing the `_config.yml` file!  
-- **GitHub**: Fork this reposity and create a branch named `gh-pages`, then start editing the `_config.yml` file! The `.gitlab-ci.yml` file is only needed for GitLab Pages, so feel free to delete this if you are using GitHub instead.
+- **GitLab**: Simply fork this repository and start editing the `_config.yml` file!
+- **GitHub**: Fork this reposity and create a branch named `gh-pages`, then start editing the `_config.yml` file!
 
 # Added Features
 
@@ -21,6 +21,14 @@ I've integrated lots of nice Jekyll features into the theme, such as:
 * Site logo support - Easily set any image or [Font Awesome icon](http://fontawesome.io/icons/) as your logo. If you enter a Font Awesome icon class in `_config.yml` it will override the default image used as the site logo.
 * **Coming soon**: Featured images and thumbnails in front matter for the homepage posts grid.
 * **Coming soon**: Easy featured image settings in `_config.yml` - choose to have Jekyll use a set height for featured images or have it display the entire image, pushing the page content further down.
+
+# Issues
+
+If you would like to report a bug, ask a question, request a feature, feel free to do so on [the GitLab repository](https://gitlab.com/andrewbanchich/phantom-jekyll-theme) and I will be more than happy to help!
+
+Alternatively, you can open an issue via email by emailing [incoming+andrewbanchich/phantom-jekyll-theme@incoming.gitlab.com](mailto:incoming+andrewbanchich/phantom-jekyll-theme@incoming.gitlab.com).
+
+The GitHub repository is simply a mirror of the GitLab repository.
 
 # Credits
 
