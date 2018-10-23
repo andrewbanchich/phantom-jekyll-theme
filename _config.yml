@@ -13,7 +13,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 # Logo settings
-logo-image-url: images/logo.svg
+logo-image-url: images/pint.svg
 font-awesome-icon-logo:
 
 # Social settings
