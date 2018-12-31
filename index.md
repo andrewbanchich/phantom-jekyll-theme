@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Home
+title: ZGOPAL Home
 ---
 
 <header>
-<h1>This is Phantom, a free, fully responsive site<br />
-template designed by <a href="http://html5up.net">HTML5 UP</a>.</h1>
-<p>Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.</p>
+<h1>This is ZGOPAL, exclusive collection of Bengali Wedding Cards <br />
+designed by <a href="http://suvozit.com">Z</a>.</h1>
+<p>The rich and flamboyant Bengali culture becomes evident in delightfully beautiful Bengali weddings. Right from the smallest of ceremonies to most important of rituals, Bengali wedding is an experience that is unique and definitely a “must-not-miss” opportunity for anyone who has had the privilege of attending one.</p>
 </header>
 
 {% include tiles.html %}
