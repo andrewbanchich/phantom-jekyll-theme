@@ -8,7 +8,7 @@
 # Site settings
 title: ZGOPAL
 email: hello@zgopal.com
-description: Bengali . Wedding . Cards
+description: Bangla * Wedding * Cards
 baseurl: "/zgopal.pages" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
@@ -17,13 +17,13 @@ logo-image-url: images/logo.png
 font-awesome-icon-logo:
 
 # Social settings
-github_username: andrewbanchich
-twitter_username: andrewbanchich
-facebook_URL: andrewbanchich
-instagram_username: andrewbanchich
-dribbble_username: andrewbanchich
-500px_username: andrewbanchich
-phone: 555-5555
+github_username: suvozit
+twitter_username: suvozit
+facebook_URL: suvozit
+instagram_username: suvozit
+dribbble_username: suvozit
+500px_username: suvozit
+phone: +91 99701-86882
 
 # Build settings
 markdown: kramdown
