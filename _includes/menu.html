@@ -3,6 +3,7 @@
 	<ul>
 
 		{% for page in site.pages %}
+		
 		{% if page.path == "index.html" %}
 		<li><a href="{{ page.url | prepend: site.baseurl | remove: "index.html" }}">{{ page.title }}</a></li>
 		{% endif %}
@@ -11,8 +12,11 @@
 		{% if site.title == page.title | remove: "Home" %}
 		{% if site.home-link-in-menu %}
 		<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title | remove: "Home" }}</a></li>
-		{% endif %} {% endif %}
+		{% endif %}
+		{% else %}
 		<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+		{% endif %}
+		
 		{% endif %} {% endfor %}
 	</ul>
 </nav>
