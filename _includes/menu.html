@@ -11,8 +11,8 @@
 		{% if site.title == page.title | remove: "Home" %}
 		{% if site.home-link-in-menu %}
 		<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title | remove: "Home" }}</a></li>
-		{% endif %}
+		{% endif %} {% endif %}
 		<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-		{% endif %} {% endif %} {% endfor %}
+		{% endif %} {% endfor %}
 	</ul>
 </nav>
