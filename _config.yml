@@ -9,7 +9,7 @@
 title: ZGOPAL
 email: hello@zgopal.com
 description: Bangla * Wedding * Cards
-baseurl: "/zgopal.pages" # the subpath of your site, e.g. /blog
+baseurl: "/ZGOPAL" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 # Logo settings
