@@ -5,14 +5,14 @@
 		{% for page in site.pages %}
 		{% if page.path == "index.html" %}
 		<li><a href="{{ page.url | prepend: site.baseurl | remove: "index.html" }}">{{ page.title }}</a></li>
-		{% endif %} {% endfor %}
-
-		{% for page in site.pages %}
+		{% endif %}
 
 		{% if page.title %}
-
+		{% if site.title == page.title | remove: "Home" %}
+		{% if site.home-link-in-menu %}
 		<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title | remove: "Home" }}</a></li>
-
-		{% endif %} {% endfor %}
+		{% endif %}
+		<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+		{% endif %} {% endif %} {% endfor %}
 	</ul>
 </nav>
