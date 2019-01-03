@@ -2,8 +2,7 @@
 	<h2>Menu</h2>
 	<ul>
 		{% for page in site.pages %}
-		<!-- {{ page.path }} -->
-		{% if page.path == "index.html" %}
+		{% if page.title and page.title contains "Home" %} {% else %}
 		<li><a href="{{ page.url | prepend: site.baseurl | remove: ".html" }}">{{ page.title }}</a></li>
 		{% endif %} {% endfor %}
 		
