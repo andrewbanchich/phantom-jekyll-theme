@@ -9,14 +9,13 @@
 		{% endif %}
 
 		{% if page.title %}
-		{% if site.title contains "Home" %}
-		{% if site.home-link-in-menu %}
+		{% if page.title contains "Home" and site.home-link-in-menu %}
 		<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title | remove: "Home" }}</a></li>
-		{% endif %}
 		{% else %}
 		<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
 		{% endif %}
+		{% endif %}
 		
-		{% endif %} {% endfor %}
+		{% endfor %}
 	</ul>
 </nav>
