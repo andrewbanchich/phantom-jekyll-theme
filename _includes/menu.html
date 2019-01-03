@@ -2,12 +2,12 @@
 	<h2>Menu</h2>
 	<ul>
 		{% for page in site.pages %}
-		{% if page.path == "index.html" %}
-		<li><a href="{{ page.url | prepend: site.baseurl | remove: "index.html" }}">{{ page.title }}</a></li>
+		{% if page.path contains ".html" %}
+		<li><a href="{{ page.url | prepend: site.baseurl | remove: ".html" }}">{{ page.title }}</a></li>
 		{% endif %} {% endfor %}
 		
 		{% for page in site.pages %}
-		{% if page.title and if page.title contains "Home" and site.home-link-in-menu %}
+		{% if page.title and page.title contains "Home" and site.home-link-in-menu %}
 		<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title | remove: "Home" }}</a></li>
 		{% endif %} {% endfor %}
 	</ul>
