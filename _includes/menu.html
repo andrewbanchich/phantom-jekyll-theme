@@ -9,7 +9,7 @@
 		{% endif %}
 
 		{% if page.title %}
-		{% if site.title == page.title | remove: "Home" %}
+		{% if site.title contains "Home" %}
 		{% if site.home-link-in-menu %}
 		<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title | remove: "Home" }}</a></li>
 		{% endif %}
