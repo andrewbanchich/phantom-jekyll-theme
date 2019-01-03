@@ -8,7 +8,7 @@
 		
 		{% for page in site.pages %}
 		{% if page.title and page.title contains "Home" and site.home-link-in-menu %}
-		<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title | remove: "Home" }}</a></li>
+		<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title | remove: "Home" | strip }}</a></li>
 		{% endif %} {% endfor %}
 	</ul>
 </nav>
