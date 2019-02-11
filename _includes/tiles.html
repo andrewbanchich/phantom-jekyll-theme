@@ -1,7 +1,9 @@
 <section class="tiles">
 
+{% assign index = 0 %}
 {% for post in site.posts limit:site.front-page-posts %}
-	<article class="style{{ forloop.index | plus:1 }}">
+	{% capture index %}{% increment index %}{% endcapture %}
+	<article class="style{{index | modulo:6 | plus:1 }}">
 		<span class="image">
 			<img src="{{ site.url }}{{ site.baseurl }}/images/pic01.jpg" alt="" />
 		</span>
