@@ -4,9 +4,10 @@ title: Home
 ---
 
 <header>
-<h1>This is Phantom, a free, fully responsive site<br />
-template designed by <a href="http://html5up.net">HTML5 UP</a>.</h1>
-<p>Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.</p>
+<h1>Towards Discovery</h1>
+<p>The TomorrowScale Institute (TSI) was established to provide scientists, engineers and medical researchers with the resources, tools, training and funding support to advance their science beyond the state of the art.</p>
+
+<p>TSI is a not-for-profit organization that assists multidisciplinary, collaborative, translational scientists and medical researchers to make breakthrough discoveries and achieve rapid progress on our most challenging scientific endeavors..</p>
 </header>
 
 {% include tiles.html %}
