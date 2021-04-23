@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Generic Test
+title: About
 featured-image: images/pic13.jpg
 ---
 
